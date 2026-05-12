@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Consulta CNPJ Grátis — Dados da Receita Federal",
   description: "Consulte CNPJ gratuitamente com dados atualizados da Receita Federal. Razão social, endereço, situação cadastral, sócios e mais informações de empresas brasileiras.",
+  verification: {
+    google: "ca-pub-1988739364132910",
+  },
 };
 
 export default function RootLayout({
